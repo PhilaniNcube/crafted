@@ -2,7 +2,10 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 border-t-2 border-gray-700 h-[300px] md:h-[700px]">
+    <div
+      className="grid grid-cols-1 md:grid-cols-2 border-t-2 border-gray-700 h-[300px] md:h-[700px]"
+      id="about"
+    >
       <div
         className="w-full bg-no-repeat bg-cover bg-center"
         style={{ backgroundImage: 'url(/images/about.jpg)' }}

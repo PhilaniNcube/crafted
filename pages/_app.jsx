@@ -4,10 +4,10 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Fragment>
+    <div className="scroll-smooth">
       <Navbar />
       <Component {...pageProps} />
-    </Fragment>
+    </div>
   );
 }
 
