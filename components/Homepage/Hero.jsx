@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="max-w-7xl mx-auto h-screen flex flex-col items-center justify-center">
         <h1 className="font-semibold text-white text-center text-2xl md:text-6xl">
-          Versatile photographer based in <br></br> Gqeberha, South Africa{' '}
+          Photographer based in <br></br> Gqeberha, South Africa{' '}
         </h1>
         <button
           type="button"
