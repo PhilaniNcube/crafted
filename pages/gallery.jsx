@@ -31,7 +31,7 @@ const gallery = ({ photos, page, total, perPage }) => {
           )}
         </div>
         <ResponsiveMasonry
-          columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 3, 1280: 6 }}
+          columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 3, 1280: 4 }}
         >
           <Masonry gutter="30">
             {photos.map((image) => {
