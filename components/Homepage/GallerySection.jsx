@@ -14,7 +14,7 @@ const GallerySection = ({ photos }) => {
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 3, 1280: 6 }}
         >
-          <Masonry gutter="30">
+          <Masonry>
             {photos.map((image) => {
               return (
                 <img
