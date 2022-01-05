@@ -38,7 +38,7 @@ const gallery = ({ photos, page, total, perPage }) => {
               return (
                 <img
                   key={image.sys.id}
-                  src={`https:${image.fields.image.fields.file.url}`}
+                  src={`https:${image.fields?.image?.fields?.file?.url}`}
                   alt={image.fields.title}
                 />
               );
