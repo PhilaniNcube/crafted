@@ -13,7 +13,7 @@ export default function Home({ photos }) {
     <div className="-z-10">
       <Hero />
       <SectionOne />
-      <GallerySection photos={photos} />
+    {/* <GallerySection photos={photos} /> */} 
       <About />
       <Services />
 
