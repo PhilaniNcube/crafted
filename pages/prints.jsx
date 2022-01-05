@@ -134,19 +134,19 @@ export default function prints({ prints }) {
                   <div className="absolute m-4 top-0 right-0">
                     <div className="flex items-center justify-center flex-1 h-full bg-gradient-to-tl from-yellow-300 to-red-400 shadow-inner rounded">
                       <p className="sm:text-lg text-base py-2 px-4 font-semibold leading-5 text-center text-white">
-                        {print.fields.name}
+                        {print?.fields?.name}
                       </p>
                     </div>
                   </div>
                   <img
-                    src={`http:${print.fields.image.fields.file.url}`}
-                    alt="protest"
+                    src={`http:${print.fields?.image?.fields?.file?.url}`}
+                    alt="print"
                     className="w-full aspect-video object-cover"
                   />
                   <div className="py-6 px-6 flex md:items-center justify-between">
                     <div>
                       <p className="sm:text-lg text-base font-semibold leading-5 text-gray-800 dark:text-gray-100">
-                        {print.fields.name}
+                        {print.fields?.name}
                       </p>
                       <p className="sm:text-base text-sm leading-4 pt-3 text-gray-500 dark:text-gray-400">
                         Print Available for Sale
