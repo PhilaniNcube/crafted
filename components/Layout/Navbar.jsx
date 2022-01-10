@@ -2,6 +2,7 @@
 import React, { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
+import Link from 'next/link';
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
@@ -71,16 +72,23 @@ const Navbar = () => {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {/* Icons */}
                 <div className="flex items-center justify-around min-w-[100px]">
-                  <img
-                    src="/images/whatsapp.svg"
-                    alt=""
-                    className="h-8 w-8 bg-white rounded-full p-1"
-                  />
-                  <img
-                    src="/images/instagram.svg"
-                    alt=""
-                    className="h-8 w-8 bg-white rounded-full p-1"
-                  />
+                  <Link href="https://wa.me/27783079194" passHref>
+                    <img
+                      src="/images/whatsapp.svg"
+                      alt=""
+                      className="h-8 w-8 bg-white rounded-full p-1"
+                    />
+                  </Link>
+                  <Link
+                    href="https://www.instagram.com/crafted.photographs/?hl=en"
+                    passHref
+                  >
+                    <img
+                      src="/images/instagram.svg"
+                      alt=""
+                      className="h-8 w-8 bg-white rounded-full p-1"
+                    />
+                  </Link>
                 </div>
               </div>
             </div>
