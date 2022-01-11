@@ -12,14 +12,14 @@ const Hero = () => {
         <h1 className="font-semibold text-white text-center text-2xl md:text-6xl">
           Photographer based in <br></br> Gqeberha, South Africa{' '}
         </h1>
-        <Link href="https://wa.me/27783079194" passHref>
+{/* <Link href="https://wa.me/27783079194" passHref>
           <button
             type="button"
             className="mt-4 bg-amber-400 text-white px-8 py-2 text-center font-medium rounded-full"
           >
             Learn More
           </button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
