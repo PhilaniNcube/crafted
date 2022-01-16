@@ -76,7 +76,7 @@ const Navbar = () => {
                     <img
                       src="/images/whatsapp.svg"
                       alt=""
-                      className="h-8 w-8 bg-white rounded-full p-1"
+                      className="h-8 w-8 bg-white rounded-full p-1 cursor-pointer"
                     />
                   </Link>
                   <Link
@@ -86,7 +86,7 @@ const Navbar = () => {
                     <img
                       src="/images/instagram.svg"
                       alt=""
-                      className="h-8 w-8 bg-white rounded-full p-1"
+                      className="h-8 w-8 bg-white rounded-full p-1 cursor-pointer"
                     />
                   </Link>
                 </div>
