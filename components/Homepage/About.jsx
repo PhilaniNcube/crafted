@@ -7,7 +7,7 @@ const About = () => {
       id="about"
     >
       <div
-        className="w-full bg-no-repeat bg-cover bg-center"
+        className="w-full h-[700px] md:h-full bg-no-repeat bg-cover bg-center"
         style={{ backgroundImage: 'url(/images/about.jpg)' }}
       ></div>
       <div className="p-4 md:p-6 flex flex-col justify-center text-gray-600">

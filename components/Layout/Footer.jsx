@@ -9,23 +9,9 @@ const Footer = () => {
           <div className="flex items-center justify-center flex-shrink-0 h-12">
             <img src="/images/logo.png" alt="" className="h-12" />
           </div>
-          <ul className="flex flex-wrap items-center space-x-4 sm:space-x-8">
-            <li>
-              <a href="#">Terms of Use</a>
-            </li>
-            <li>
-              <a href="#">Privacy</a>
-            </li>
-          </ul>
+        
         </div>
-        <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
-          <li>
-            <a href="#">Instagram</a>
-          </li>
-          <li>
-            <a href="#">Facebook</a>
-          </li>
-        </ul>
+      
       </div>
     </footer>
   );

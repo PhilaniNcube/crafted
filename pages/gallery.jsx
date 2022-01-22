@@ -38,6 +38,7 @@ const gallery = ({ photos, page, total, perPage }) => {
               return (
                 <img
                   key={image.sys.id}
+                  className="border-4 border-white"
                   src={`https:${image.fields?.image?.fields?.file?.url}`}
                   alt={image.fields.title}
                 />

@@ -3,11 +3,11 @@ import React, { Fragment } from 'react';
 
 export default function Rates({ service }) {
   return (
-    <div>
+    <div className="z-0 mt-32 md:mt-0">
       <div className="flex justify-center py-12 px-2 sm:px-6">
         <div className="max-w-sm rounded overflow-hidden relative">
           <img
-            className="w-full min-h-[450px] object-cover"
+            className="w-full min-h-[450px] object-cover z-0"
             src={`http:${service.fields.image.fields.file.url}`}
             alt=""
           />
