@@ -17,15 +17,15 @@ const About = () => {
           Elizabeth/Gqeberha. This is where I am currently based. I have always
           had an interest in photography, ever since I owned my first phone with
           a camera. I always had an obsession with taking pictures of the
-          sunset, especially in the in West Coast, Saldanha - primarily that is
-          where the sun sets on the beach - one of the best sunsets around. It
+          sunset, especially at the West Coast, Saldanha. Primarily that is
+          where the sun sets on the beach, one of the best sunsets around. It
           was a walk away to the beach from where I was staying and I would take
-          those sunset bangers using my phone camera, but inside wishing, if
-          only I had owned a proper camera for such beautiful moments. So that
-          is in a nutshell how my love for sunsets began. My work is an
-          obsession, so whenever I hold my camera, every shoot is an opportunity
-          to learn and to further develop my craft - discovering more about
-          myself and what fascinates me more in photography.
+          those sunset bangers using my phone camera, but inside wishing if only
+          I had owned a proper camera for such beautiful moments. So that is in
+          a nutshell how my love for sunsets began. My work is an obsession, so
+          whenever I hold my camera, every shoot is an opportunity to learn and
+          to further develop my craft - discovering more about myself and what
+          fascinates me more in photography.
         </p>
         <p className="py-2 font-medium">
           My portfolio showcases some favorite images; I strive to create
