@@ -13,6 +13,8 @@ function contact() {
             <h1 className="xl:text-4xl text-3xl text-amber-600 font-extrabold mb-8">
               Send Us A Message
             </h1>
+    
+     <input type="hidden" name="redirect" value="https://web3forms.com/success"/>
 
             <input
               type="hidden"
